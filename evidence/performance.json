@@ -1,0 +1,1215 @@
+{
+  "version": "1.1.0",
+  "module_parameters": {
+    "wide_copy": "Y",
+    "fix_rx_align": "Y",
+    "merge_copy": "Y",
+    "merge_rx_copy": "Y"
+  },
+  "note": "Receiver statistics and numeric system counters for the documented reference configuration.",
+  "performance_health_passed": false,
+  "full_pvt_signoff": false,
+  "cases": [
+    {
+      "name": "tcp_fpga_rx_1",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 30,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 30.000153,
+          "seconds": 30.000153,
+          "bytes": 101580800,
+          "bits_per_second": 27088075.1841499,
+          "retransmits": 3019,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 29.99892,
+          "seconds": 29.99892,
+          "bytes": 101580800,
+          "bits_per_second": 27089188.544120923,
+          "sender": true
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.12286126986932543,
+          "host_user": 0.003275223290056882,
+          "host_system": 0.1195829391567922,
+          "remote_total": 98.067974597953,
+          "remote_user": 0.4430672434329509,
+          "remote_system": 97.63490619215516
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 98.60943168077388,
+        "cpu_jiffies": [
+          26,
+          0,
+          1287,
+          46,
+          0,
+          0,
+          1949,
+          0
+        ],
+        "net": {
+          "rx_bytes": 112734573,
+          "rx_packets": 75012,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 930940,
+          "tx_packets": 13409,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 13387,
+          "15": 171
+        }
+      }
+    },
+    {
+      "name": "tcp_fpga_rx_2",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 30,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 30.000213,
+          "seconds": 30.000213,
+          "bytes": 100270080,
+          "bits_per_second": 26738498.15666309,
+          "retransmits": 3009,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 29.99724,
+          "seconds": 29.99724,
+          "bytes": 100270080,
+          "bits_per_second": 26741148.18563308,
+          "sender": true
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.13502159440931769,
+          "host_user": 0.0046006068635645585,
+          "host_system": 0.13042409606390418,
+          "remote_total": 97.45456340688052,
+          "remote_user": 0.3779659629408129,
+          "remote_system": 97.07678492085662
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 98.5178463399879,
+        "cpu_jiffies": [
+          25,
+          0,
+          1274,
+          49,
+          0,
+          0,
+          1958,
+          0
+        ],
+        "net": {
+          "rx_bytes": 111993225,
+          "rx_packets": 74707,
+          "rx_errs": 0,
+          "rx_drop": 2,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 926892,
+          "tx_packets": 13348,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 13316,
+          "15": 249
+        }
+      }
+    },
+    {
+      "name": "tcp_fpga_rx_3",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 30,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 30.000224,
+          "seconds": 30.000224,
+          "bytes": 102105088,
+          "bits_per_second": 27227820.16560943,
+          "retransmits": 2999,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 29.98664,
+          "seconds": 29.98664,
+          "bytes": 102105088,
+          "bits_per_second": 27240154.415433,
+          "sender": true
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.1391643807825449,
+          "host_user": 0.008778988771163534,
+          "host_system": 0.13041337037502881,
+          "remote_total": 98.57874726285583,
+          "remote_user": 0.38492495975523183,
+          "remote_system": 98.1938223031006
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 98.5774818401937,
+        "cpu_jiffies": [
+          21,
+          0,
+          1332,
+          47,
+          0,
+          0,
+          1904,
+          0
+        ],
+        "net": {
+          "rx_bytes": 113823925,
+          "rx_packets": 75287,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 936650,
+          "tx_packets": 13452,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 13436,
+          "15": 54
+        }
+      }
+    },
+    {
+      "name": "tcp_fpga_tx_1",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 30,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 1,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 29.99024,
+          "seconds": 29.99024,
+          "bytes": 92667904,
+          "bits_per_second": 24719483.1385144,
+          "retransmits": 0,
+          "sender": false
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 29.999955,
+          "seconds": 29.999955,
+          "bytes": 92667904,
+          "bits_per_second": 24711478.133883867,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.860468417943828,
+          "host_user": 0.0668388666657403,
+          "host_system": 0.793632659917996,
+          "remote_total": 96.6570338689169,
+          "remote_user": 0.09468363288730877,
+          "remote_system": 96.5626001680793
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 98.66747425802544,
+        "cpu_jiffies": [
+          13,
+          0,
+          2676,
+          44,
+          0,
+          0,
+          569,
+          0
+        ],
+        "net": {
+          "rx_bytes": 2407141,
+          "rx_packets": 36471,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 103407912,
+          "tx_packets": 69383,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 4375,
+          "15": 247
+        }
+      }
+    },
+    {
+      "name": "tcp_fpga_tx_2",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 30,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 1,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 29.97384,
+          "seconds": 29.97384,
+          "bytes": 94633984,
+          "bits_per_second": 25257753.828004688,
+          "retransmits": 0,
+          "sender": false
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 30.000631,
+          "seconds": 30.000631,
+          "bytes": 94633984,
+          "bits_per_second": 25235198.286329377,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.8684871661386713,
+          "host_user": 0.0631318999127021,
+          "host_system": 0.805358374793595,
+          "remote_total": 97.02656828735155,
+          "remote_user": 0.16683502598480832,
+          "remote_system": 96.85973326136676
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 98.57877230117931,
+        "cpu_jiffies": [
+          14,
+          0,
+          2689,
+          47,
+          0,
+          0,
+          557,
+          0
+        ],
+        "net": {
+          "rx_bytes": 2383188,
+          "rx_packets": 36025,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 105465005,
+          "tx_packets": 70762,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 4272,
+          "15": 67
+        }
+      }
+    },
+    {
+      "name": "tcp_fpga_tx_3",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 30,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 1,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 29.97854,
+          "seconds": 29.97854,
+          "bytes": 95027200,
+          "bits_per_second": 25358726.609101046,
+          "retransmits": 0,
+          "sender": false
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 29.999065,
+          "seconds": 29.999065,
+          "bytes": 95027200,
+          "bits_per_second": 25341376.47290007,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.856228465943142,
+          "host_user": 0.048897853875369414,
+          "host_system": 0.80733372064081,
+          "remote_total": 96.6869133075649,
+          "remote_user": 0.04456801197308555,
+          "remote_system": 96.64253268737303
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 98.31172746457642,
+        "cpu_jiffies": [
+          12,
+          0,
+          2691,
+          56,
+          0,
+          0,
+          558,
+          0
+        ],
+        "net": {
+          "rx_bytes": 2426064,
+          "rx_packets": 36741,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 105689858,
+          "tx_packets": 70197,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 3830,
+          "15": 324
+        }
+      }
+    },
+    {
+      "name": "udp_fpga_rx_18M_1",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "UDP",
+        "num_streams": 1,
+        "blksize": 1472,
+        "omit": 2,
+        "duration": 20,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 18000000,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum": {
+          "start": 0,
+          "end": 19.99214,
+          "seconds": 19.99214,
+          "bytes": 44999040,
+          "bits_per_second": 17999320.8111387,
+          "jitter_ms": 0.458801042791114,
+          "lost_packets": 0,
+          "packets": 30570,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_sent": {
+          "start": 0,
+          "end": 20.000328,
+          "seconds": 20.000328,
+          "bytes": 44999040,
+          "bits_per_second": 17999320.8111387,
+          "jitter_ms": 0,
+          "lost_packets": 0,
+          "packets": 30570,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 19.99214,
+          "seconds": 19.99214,
+          "bytes": 44987264,
+          "bits_per_second": 18001980.378288668,
+          "jitter_ms": 0.458801042791114,
+          "lost_packets": 0,
+          "packets": 30562,
+          "lost_percent": 0,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 1.1682971689751642,
+          "host_user": 0.13000356937553006,
+          "host_system": 1.038298141367709,
+          "remote_total": 75.9151548534816,
+          "remote_user": 5.70750039312142,
+          "remote_system": 70.20765446036017
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 97.84330985915493,
+        "cpu_jiffies": [
+          125,
+          0,
+          516,
+          49,
+          0,
+          0,
+          1582,
+          0
+        ],
+        "net": {
+          "rx_bytes": 50925244,
+          "rx_packets": 33709,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 1126,
+          "tx_packets": 12,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 11,
+          "15": 32927
+        }
+      }
+    },
+    {
+      "name": "udp_fpga_rx_18M_2",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "UDP",
+        "num_streams": 1,
+        "blksize": 1472,
+        "omit": 2,
+        "duration": 20,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 18000000,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum": {
+          "start": 0,
+          "end": 19.9958,
+          "seconds": 19.9958,
+          "bytes": 45000512,
+          "bits_per_second": 18000210.20006306,
+          "jitter_ms": 0.5767991485552277,
+          "lost_packets": 25,
+          "packets": 30571,
+          "lost_percent": 0.0817768473389814,
+          "sender": true
+        },
+        "sum_sent": {
+          "start": 0,
+          "end": 19.999994,
+          "seconds": 19.999994,
+          "bytes": 45000512,
+          "bits_per_second": 18000210.20006306,
+          "jitter_ms": 0,
+          "lost_packets": 0,
+          "packets": 30571,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 19.9958,
+          "seconds": 19.9958,
+          "bytes": 45019648,
+          "bits_per_second": 18011641.6447454,
+          "jitter_ms": 0.5767991485552277,
+          "lost_packets": 25,
+          "packets": 30609,
+          "lost_percent": 0.0817768473389814,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 1.1134723974946417,
+          "host_user": 0.10159177707409961,
+          "host_system": 1.0118851616469993,
+          "remote_total": 76.42576081631243,
+          "remote_user": 6.51612437020925,
+          "remote_system": 69.90963644610318
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 97.54923413566739,
+        "cpu_jiffies": [
+          145,
+          0,
+          534,
+          56,
+          0,
+          0,
+          1550,
+          0
+        ],
+        "net": {
+          "rx_bytes": 50965304,
+          "rx_packets": 34414,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 1131,
+          "tx_packets": 12,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 11,
+          "15": 32712
+        }
+      }
+    },
+    {
+      "name": "udp_fpga_rx_18M_3",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "UDP",
+        "num_streams": 1,
+        "blksize": 1472,
+        "omit": 2,
+        "duration": 20,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 18000000,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum": {
+          "start": 0,
+          "end": 19.9994,
+          "seconds": 19.9994,
+          "bytes": 45000512,
+          "bits_per_second": 17999746.70644632,
+          "jitter_ms": 0.4474080363520234,
+          "lost_packets": 0,
+          "packets": 30571,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_sent": {
+          "start": 0,
+          "end": 20.000509,
+          "seconds": 20.000509,
+          "bytes": 45000512,
+          "bits_per_second": 17999746.70644632,
+          "jitter_ms": 0,
+          "lost_packets": 0,
+          "packets": 30571,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 19.9994,
+          "seconds": 19.9994,
+          "bytes": 44999040,
+          "bits_per_second": 18000156.004680138,
+          "jitter_ms": 0.4474080363520234,
+          "lost_packets": 0,
+          "packets": 30570,
+          "lost_percent": 0,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 1.0519141895260384,
+          "host_user": 0.14648636862454,
+          "host_system": 0.9054323625511735,
+          "remote_total": 75.86536617466476,
+          "remote_user": 6.34545205003822,
+          "remote_system": 69.52027769521696
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 97.50219106047327,
+        "cpu_jiffies": [
+          140,
+          0,
+          499,
+          57,
+          0,
+          0,
+          1586,
+          0
+        ],
+        "net": {
+          "rx_bytes": 50924559,
+          "rx_packets": 33716,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 1325,
+          "tx_packets": 15,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 13,
+          "15": 32862
+        }
+      }
+    },
+    {
+      "name": "udp_fpga_rx_20M_1",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "UDP",
+        "num_streams": 1,
+        "blksize": 1472,
+        "omit": 2,
+        "duration": 20,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 20000000,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum": {
+          "start": 0,
+          "end": 19.98894,
+          "seconds": 19.98894,
+          "bytes": 50000896,
+          "bits_per_second": 19999791.405913644,
+          "jitter_ms": 0.3698146638761868,
+          "lost_packets": 1950,
+          "packets": 33968,
+          "lost_percent": 5.74069712670749,
+          "sender": true
+        },
+        "sum_sent": {
+          "start": 0,
+          "end": 20.000567,
+          "seconds": 20.000567,
+          "bytes": 50000896,
+          "bits_per_second": 19999791.405913644,
+          "jitter_ms": 0,
+          "lost_packets": 0,
+          "packets": 33968,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 19.98894,
+          "seconds": 19.98894,
+          "bytes": 47112832,
+          "bits_per_second": 18855559.924638327,
+          "jitter_ms": 0.3698146638761868,
+          "lost_packets": 1950,
+          "packets": 33956,
+          "lost_percent": 5.74069712670749,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 1.1682674862039162,
+          "host_user": 0.11304364017688416,
+          "host_system": 1.0552283875737831,
+          "remote_total": 84.859091880002,
+          "remote_user": 6.541418034239696,
+          "remote_system": 78.3176738457623
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 97.38334060183166,
+        "cpu_jiffies": [
+          143,
+          0,
+          546,
+          60,
+          0,
+          0,
+          1544,
+          0
+        ],
+        "net": {
+          "rx_bytes": 56623208,
+          "rx_packets": 38152,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 1190,
+          "tx_packets": 13,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 12,
+          "15": 35660
+        }
+      }
+    },
+    {
+      "name": "udp_fpga_rx_20M_2",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "UDP",
+        "num_streams": 1,
+        "blksize": 1472,
+        "omit": 2,
+        "duration": 20,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 20000000,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum": {
+          "start": 0,
+          "end": 19.99516,
+          "seconds": 19.99516,
+          "bytes": 49999424,
+          "bits_per_second": 19999520.605968457,
+          "jitter_ms": 0.5733126751153268,
+          "lost_packets": 0,
+          "packets": 33967,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_sent": {
+          "start": 0,
+          "end": 20.000249,
+          "seconds": 20.000249,
+          "bytes": 49999424,
+          "bits_per_second": 19999520.605968457,
+          "jitter_ms": 0,
+          "lost_packets": 0,
+          "packets": 33967,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 19.99516,
+          "seconds": 19.99516,
+          "bytes": 49975872,
+          "bits_per_second": 19995187.635407772,
+          "jitter_ms": 0.5733126751153268,
+          "lost_packets": 0,
+          "packets": 33951,
+          "lost_percent": 0,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 1.1634491396008166,
+          "host_user": 0.14391761851766668,
+          "host_system": 1.01953152108315,
+          "remote_total": 85.5631805704521,
+          "remote_user": 6.3666036466759985,
+          "remote_system": 79.19684960642805
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 97.98245614035088,
+        "cpu_jiffies": [
+          135,
+          0,
+          530,
+          46,
+          0,
+          0,
+          1569,
+          0
+        ],
+        "net": {
+          "rx_bytes": 56583701,
+          "rx_packets": 37455,
+          "rx_errs": 0,
+          "rx_drop": 1,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 1190,
+          "tx_packets": 13,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 12,
+          "15": 35865
+        }
+      }
+    },
+    {
+      "name": "udp_fpga_rx_20M_3",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "UDP",
+        "num_streams": 1,
+        "blksize": 1472,
+        "omit": 2,
+        "duration": 20,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 20000000,
+        "bidir": 0,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum": {
+          "start": 0,
+          "end": 19.99882,
+          "seconds": 19.99882,
+          "bytes": 49997952,
+          "bits_per_second": 19999721.792474486,
+          "jitter_ms": 0.3053118149185592,
+          "lost_packets": 1984,
+          "packets": 33966,
+          "lost_percent": 5.84113525289996,
+          "sender": true
+        },
+        "sum_sent": {
+          "start": 0,
+          "end": 19.999459,
+          "seconds": 19.999459,
+          "bytes": 49997952,
+          "bits_per_second": 19999721.792474486,
+          "jitter_ms": 0,
+          "lost_packets": 0,
+          "packets": 33966,
+          "lost_percent": 0,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 19.99882,
+          "seconds": 19.99882,
+          "bytes": 47014208,
+          "bits_per_second": 18806792.80077525,
+          "jitter_ms": 0.3053118149185592,
+          "lost_packets": 1984,
+          "packets": 33924,
+          "lost_percent": 5.84113525289996,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 1.0798311303416974,
+          "host_user": 0.14881349104250968,
+          "host_system": 0.9310221810037304,
+          "remote_total": 84.3926532489477,
+          "remote_user": 6.96055306961453,
+          "remote_system": 77.4316457111382
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 97.77000437254044,
+        "cpu_jiffies": [
+          151,
+          0,
+          558,
+          51,
+          0,
+          0,
+          1527,
+          0
+        ],
+        "net": {
+          "rx_bytes": 56616165,
+          "rx_packets": 38071,
+          "rx_errs": 0,
+          "rx_drop": 0,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 1189,
+          "tx_packets": 13,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 12,
+          "15": 35627
+        }
+      }
+    },
+    {
+      "name": "tcp_full_duplex",
+      "iperf_version": "iperf 3.19.1",
+      "test_start": {
+        "protocol": "TCP",
+        "num_streams": 1,
+        "blksize": 131072,
+        "omit": 2,
+        "duration": 60,
+        "bytes": 0,
+        "blocks": 0,
+        "reverse": 0,
+        "tos": 0,
+        "target_bitrate": 0,
+        "bidir": 1,
+        "fqrate": 0,
+        "interval": 1
+      },
+      "end": {
+        "sum_sent": {
+          "start": 0,
+          "end": 59.99967,
+          "seconds": 59.99967,
+          "bytes": 90308608,
+          "bits_per_second": 12041213.960010113,
+          "retransmits": 3527,
+          "sender": true
+        },
+        "sum_received": {
+          "start": 0,
+          "end": 59.99728,
+          "seconds": 59.99728,
+          "bytes": 90177536,
+          "bits_per_second": 12024216.564484255,
+          "sender": true
+        },
+        "sum_sent_bidir_reverse": {
+          "start": 0,
+          "end": 59.99967,
+          "seconds": 59.99967,
+          "bytes": 95420416,
+          "bits_per_second": 12722792.10868993,
+          "retransmits": 0,
+          "sender": false
+        },
+        "sum_received_bidir_reverse": {
+          "start": 0,
+          "end": 59.99728,
+          "seconds": 59.99728,
+          "bytes": 95420416,
+          "bits_per_second": 12723298.922884503,
+          "sender": false
+        },
+        "cpu_utilization_percent": {
+          "host_total": 0.5945248593364647,
+          "host_user": 0.027452295720089066,
+          "host_system": 0.5670757723471008,
+          "remote_total": 98.54357410603492,
+          "remote_user": 0.40308402149489064,
+          "remote_system": 98.1405223320357
+        }
+      },
+      "board_delta": {
+        "cpu_busy_percent": 99.03755127800568,
+        "cpu_jiffies": [
+          38,
+          0,
+          3980,
+          61,
+          0,
+          0,
+          2259,
+          0
+        ],
+        "net": {
+          "rx_bytes": 99936184,
+          "rx_packets": 99977,
+          "rx_errs": 0,
+          "rx_drop": 3,
+          "rx_fifo": 0,
+          "rx_frame": 0,
+          "rx_compressed": 0,
+          "rx_multicast": 0,
+          "tx_bytes": 103871140,
+          "tx_packets": 81494,
+          "tx_errs": 0,
+          "tx_drop": 0,
+          "tx_fifo": 0,
+          "tx_colls": 0,
+          "tx_carrier": 0,
+          "tx_compressed": 0
+        },
+        "driver_irq": {
+          "14": 15788,
+          "15": 665
+        }
+      }
+    }
+  ],
+  "summary": {
+    "tcp_rx_median_mbps": 27.089188544120923,
+    "tcp_tx_median_mbps": 25.23519828632938,
+    "bidir_rx_mbps": 12.024216564484256,
+    "bidir_tx_mbps": 12.723298922884503,
+    "bidir_sum_mbps": 24.74751548736876,
+    "udp_18M_loss_percent": [
+      0,
+      0.0817768473389814,
+      0
+    ],
+    "udp_20M_loss_percent": [
+      5.74069712670749,
+      0,
+      5.84113525289996
+    ]
+  }
+}

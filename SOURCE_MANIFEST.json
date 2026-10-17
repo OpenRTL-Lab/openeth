@@ -1,0 +1,574 @@
+{
+  "schema": "openeth-public-sources/v1",
+  "version": "1.1.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "category": "legal",
+      "license": "MIT",
+      "source_sha256": "5a41be97e7da056aaeb713badaac470f566562032b79056a6ffe207323ddec4a",
+      "payload_sha256": "5a41be97e7da056aaeb713badaac470f566562032b79056a6ffe207323ddec4a",
+      "header_offset": null
+    },
+    {
+      "path": "buffer/constraints/openeth_frame_cdc.tcl",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "0f4c6bee34b9b9c7fa7d3d5e0e8b2ad8f5f46a793d68ce9d4ef0aec01d94133b",
+      "payload_sha256": "5a55d22e6370ba115fce898c095302f9ca7736cfb03029a2e77306a2bf33045a",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/rtl/openeth_cdc.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "0456cb2a8c95060d892d9113fb525c475f8bfe017ef976af38ece3406e39fb96",
+      "payload_sha256": "0274e4c4857cafa47672615dbf6b54cc0cfe977d3d1bc65eb93e30cda6722ea0",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/rtl/openeth_frame_fifo.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "0a09f82c3a6a432d9a50df25fa273652f68c631c1ccf12ef2005e5a6ecd7c7d9",
+      "payload_sha256": "20ba367a3b6a9376af72877e787e81d8d75f57e8635d11a7a47214bd97c0693a",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/rtl/openeth_stream_down.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "e67a53757e79b2b91274e09cccf33b1e8d93257711241b0357cc2e1419eb1f02",
+      "payload_sha256": "420401248c986ed66a4f91627c3e6d9041ce9ec198d88b8038196247dfe3c1ec",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/rtl/openeth_stream_up.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "fd127ed5170e6324e6b54529734dc2a816cca1cbe17728671e8c69d560bcfa50",
+      "payload_sha256": "28513a49608eb41f06768edd3b04e4ca3510a286f78e46ab20344d61d04960f0",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/sim/byte_test_top.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "c942714b9ee39f9e30853cf9eea3959e8c013a129126fd4e8921f6886b29afc9",
+      "payload_sha256": "edd4e682b13baaf5895b3d28d272d552d6c256455a11f273beed11a4663d52ef",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/sim/check.cpp",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "3805b06cd4a7352aa88ea729c53b8dbd9288603d756edb71e78f7f76decd15aa",
+      "payload_sha256": "b5f03bdbcdf097763dbabee90221d7ac186dbedaf2cb57fe6ea268c03ed9a33c",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/sim/performance.cpp",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "ef1e87e78b72d480cbe4a913a1f7783e94d92a2d8d503ddacd1b853574f24162",
+      "payload_sha256": "aa28c8e47cccbafa726120ea87a827d9eb7948a3cc69a4f812b29d5e649d6b94",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/sim/test_top.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "48186e47b26f545ba00a12ac9bd6117df07dc52809887a643125eeb134c80348",
+      "payload_sha256": "088a9f7a57bb882ddfe13ef8bd6438f55dc3dfc52b18a8d23b5999b22da674c5",
+      "header_offset": 0
+    },
+    {
+      "path": "buffer/tools/emit_sv.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "4e26a0d2e3a43e7c60324ee733f64948b1a6e33a3e4af456477044999756c407",
+      "payload_sha256": "603652a81f2aeec6bedc58774e6485191b8b9175bdbf6a3f8e10e4cdc2e01817",
+      "header_offset": 23
+    },
+    {
+      "path": "buffer/tools/verify.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "326edd8d52099fec4970762baab8659718b2bc80170b27a35b99f1a9a740f2e9",
+      "payload_sha256": "ff85d2d7eb4433c6bc32e8babc0e61f7ecbb864a71dfa6f8e8803be6ea108ad9",
+      "header_offset": 23
+    },
+    {
+      "path": "integration/chipyard/eth/ETH.scala",
+      "category": "third-party",
+      "license": "BSD-3-Clause",
+      "source_sha256": "a9aa9707ee571a13c6c36adde61f78eac85704a2e6b3aea9bda229a2d2c8e613",
+      "payload_sha256": "a9aa9707ee571a13c6c36adde61f78eac85704a2e6b3aea9bda229a2d2c8e613",
+      "header_offset": null
+    },
+    {
+      "path": "integration/chipyard/eth/MdioController.scala",
+      "category": "third-party",
+      "license": "BSD-3-Clause",
+      "source_sha256": "befa60a8505276db9eb11a926dc9052a276181975836f689779a65ed4f4f1cd4",
+      "payload_sha256": "befa60a8505276db9eb11a926dc9052a276181975836f689779a65ed4f4f1cd4",
+      "header_offset": null
+    },
+    {
+      "path": "integration/chipyard/opennic-platform.sbt",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "e05523cdfab780c33e19ca07be2393b1efd76b15e979b0b7e286beec7f036805",
+      "payload_sha256": "8db3b738b1a610ea77bda4d8e51d37c8a764d643e894edc7945a05c9a4c3620b",
+      "header_offset": 0
+    },
+    {
+      "path": "licenses/Chipyard-BSD-3-Clause.txt",
+      "category": "legal",
+      "license": "BSD-3-Clause",
+      "source_sha256": "c36c8dd92ba95a48aaed1b89de09a636d5a4e1dd2e726428d0c0b3644a267cd5",
+      "payload_sha256": "c36c8dd92ba95a48aaed1b89de09a636d5a4e1dd2e726428d0c0b3644a267cd5",
+      "header_offset": null
+    },
+    {
+      "path": "licenses/OpenNIC-MIT.txt",
+      "category": "legal",
+      "license": "MIT",
+      "source_sha256": "4e26a0e0ecab04247ccc979a0fed0cf086ff6bd4eb13eb4d0c92f2ba043bc078",
+      "payload_sha256": "4e26a0e0ecab04247ccc979a0fed0cf086ff6bd4eb13eb4d0c92f2ba043bc078",
+      "header_offset": null
+    },
+    {
+      "path": "mac/build.mill",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "2aaab45243e18fa9f66c17e737adde62594bf2e858a35530214118584d1fc492",
+      "payload_sha256": "4f350874bbfdd8f38d0abbff86cbb4deb656ad052de8e7397268a1ec12f0f93e",
+      "header_offset": 24
+    },
+    {
+      "path": "mac/mac/src/main/scala/openeth/mac/EthernetMac.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "6896b9e0b6f13f025d042f31d60e7ea49e11d3b3af51a278b0678cc0924d863e",
+      "payload_sha256": "9edb5593f602c1579e53d48216a741bb7bbd314108c3900a0525ef17b5643eda",
+      "header_offset": 0
+    },
+    {
+      "path": "mac/rtl/OpenEthMac.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "c92a457302401df87259e81e3ef5009392404ca02ffaf2f25b6eafd2854b301c",
+      "payload_sha256": "71b45f24d8361f7b11662ac297aba61260575a2d2c8e7156735d5753da168a3d",
+      "header_offset": 0
+    },
+    {
+      "path": "mac/sim/mac_core_test.cpp",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "8f547d30d7544d31f1c9279f877f0e246301bfaf863574e264080e56cffe111c",
+      "payload_sha256": "c02d0d9a173956681d7c6031bb291e12735bb5241bd75cd9294fb04c2ad88c5e",
+      "header_offset": 0
+    },
+    {
+      "path": "mac/sim/product_clock_test.cpp",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "8406c4b430dde0a4073d9b8ab54b6a64218064aae7594fc2e8005fb6e1ff4919",
+      "payload_sha256": "cc531075b846d4a2bb2dde1f79ea9dc2ce5cba7b1fb9adbb6e24ac4055e4577b",
+      "header_offset": 0
+    },
+    {
+      "path": "mac/tools/emit_sv.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "6cbc6f699c851613005c8bd04407371550065913d4537f239dd96010698bbdbc",
+      "payload_sha256": "2e7e3c4b2a577b2895327f9def2fe221196a4117f25edaa2ce231a35dbc87f11",
+      "header_offset": 23
+    },
+    {
+      "path": "mac/tools/verify.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "341354e959e887c533e645c110f314af5acde6b58fdcc8867b8567ac53f9dfc3",
+      "payload_sha256": "3c961dad0f9a81e60a468f375d600c2ed38ddd3fcf38fabf2c172a3568c4f0f7",
+      "header_offset": 23
+    },
+    {
+      "path": "nic/build.mill",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "5143d516048968f90712031ebefa0be29399730477329852a185adeb94ca9683",
+      "payload_sha256": "f4a94ef65b9d5f0852e57905076c43cb8ec285f3762f883e04ca36d61ed44007",
+      "header_offset": 24
+    },
+    {
+      "path": "nic/core/src/main/scala/opennic/EmitOpenNic.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "73e75bd8cef64ed9bd5468db660720c8b4452549fd0e9ae174f9662ad1877b11",
+      "payload_sha256": "9252535535a37aef45d297973af6bf428653cbd879f90001606391016d3e828e",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/core/src/main/scala/opennic/EmitOpenNicDma.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "5a7baf9fe778493ac7d9e17708d17d170c024c23ebc97e254cf97e67266b130a",
+      "payload_sha256": "43f31f5fb673e058fe31575d94f01fe65e817ca2e1d0bfd1d4b22106cb836060",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/core/src/main/scala/opennic/OpenNic.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "a4a20dc6f1a40eb811c8204c42d1a26f639677d8a38e74c4784b28136562557f",
+      "payload_sha256": "5afdf26c57ba160a27cd88729491387d4e7bcbe6636a73273dc0c9cc7ab81600",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/core/src/main/scala/opennic/OpenNicDma.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "ce4ae8c5e89d04e1cbf99b72a38d96fd2ba0d5549c0b84f4987d654a06ca76c1",
+      "payload_sha256": "b3e436cc971332204c17fa50800b7a0a0d0264035a6876e51dba5e4dc59d191f",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/core/src/main/scala/opennic/Protocol.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "de971c4cde1f1fa371cbaed9405b6acc195dceef53cb65d1f539b4b2c642b2da",
+      "payload_sha256": "dbebb812574f68073525384d70df3e1fe4f92df494e3d78c6b8845554afac1aa",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/core/src/test/scala/opennic/OpenNicCsrSpec.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "41916e9b446dd915f0a58528a22ebf5e723a0ec9c3ef6a45f919d2b3913e6597",
+      "payload_sha256": "a216623fb7ce2b9abd9c25cde0f0158b8b247605f5901c3a52de90848ee9f78f",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/core/src/test/scala/opennic/OpenNicDmaSpec.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "f4ea04b64b2d1eb01256780fd3bb52ff7d0f97b908906b86ba2e2ae851af7699",
+      "payload_sha256": "dd109441c3a761fd9b1655e87c3721c79d1a04d93d4dd73540910b629b29482e",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/integration/OpenEthBoardLink.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "a2917a9da0fa195bb273b1cd828a76dd2df2380c7a321676daf46376d0f73a6a",
+      "payload_sha256": "414477acf1a3292333a585e404f58569f22e79376a203a68644d3d56d5236649",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/integration/OpenNicMac.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "44cad5dc2839416824c3c09239f5a226c2cc97d865cb42466ede81d454ff35b5",
+      "payload_sha256": "207290d27213061e01028e903e1ff0f1f7651ea081ad02029b4c74ea345df352",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/platform/src/main/scala/opennic/platform/OpenNicTL.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "5f0d61a402331cf129e3bb4d2ad996a9013c0a965147c12006cc0bf5caabeffd",
+      "payload_sha256": "b668b099e270e5d4a1fe39c7842df6b64607ae16f9062902fe78e9e7efa834f9",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/platform/src/test/scala/opennic/platform/DmaTileLinkSpec.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "48e47636869565293dc344dfa97237557edc40466c731ef0470d88462f4fc86c",
+      "payload_sha256": "274fca3d20c984827ae948fa9ff3f60ac6544548a2a5001169a330b01b186c10",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/platform/src/test/scala/opennic/platform/OpenNicPlatformSpec.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "b079576ed95cafbc3f332ee05c080c78dd47a1b70e69547323aeff37de0e08e7",
+      "payload_sha256": "79bc63d3e518ab3955390f45823c7e68b59896bc05a51fb34f361083dc7498e5",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/software/baremetal/Makefile",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "8cdafad445ef561b09d4e2a2ea49ea2bd7c8c3cef586205d18e159bb934b81f9",
+      "payload_sha256": "ea58b9e8b70e4ca1d156317df477ad12d310030c1331566d03b8c327d22c3b9b",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/software/baremetal/link.ld",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "b78f2f554d9b32fbd4b3de4d73f399cc53d4ab7468600d430b88579259cbd697",
+      "payload_sha256": "b78f2f554d9b32fbd4b3de4d73f399cc53d4ab7468600d430b88579259cbd697",
+      "header_offset": null
+    },
+    {
+      "path": "nic/software/baremetal/loopback.c",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "f58751643e08da91137c14e30637523f542dfcc0d9d39873e2eefc58807458e0",
+      "payload_sha256": "c7a4ce5593198ef9a31271628255a81f8825cd9a828ba07a289662c0a3ee5d3b",
+      "header_offset": 0
+    },
+    {
+      "path": "nic/software/baremetal/start.S",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "7464b923f7141aebb0d114a915c32b5da044fa0711b7c820969355afd480e431",
+      "payload_sha256": "7464b923f7141aebb0d114a915c32b5da044fa0711b7c820969355afd480e431",
+      "header_offset": null
+    },
+    {
+      "path": "rgmii/build.mill",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "2aaab45243e18fa9f66c17e737adde62594bf2e858a35530214118584d1fc492",
+      "payload_sha256": "79b03df045a489f2d1b477584656bb4304bff5efe3cf228c465f87ae8f5dfeeb",
+      "header_offset": 24
+    },
+    {
+      "path": "rgmii/mac/src/main/scala/openeth/mac/EthernetMac.scala",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "e306147449a9fa27cff12d5efcd5fd60c4b4a7e2e62bd71959ca1d0d30a2620d",
+      "payload_sha256": "803d7a983901c9ff8689e70116b0c571f8457ea39cf778ce5b7e032d4a3dd806",
+      "header_offset": 0
+    },
+    {
+      "path": "rgmii/rtl/OpenEthRgmii1G.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "2bceadd6df3614f614815e75050300aa026e150f6cba701fe7d39610c99bc6ca",
+      "payload_sha256": "ddd8f3f6d4052315d4f997e1e22e38027f7667f2022c36b955a7fd5a4763188c",
+      "header_offset": 0
+    },
+    {
+      "path": "rgmii/rtl/OpenEthRgmiiPairs.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "58ce07047331cea84d48e52b7e6a2971f544f14dfcc21ee4718735abf3662ae8",
+      "payload_sha256": "fd96c21451c2b3079dbf1331dd68dcd7208128a977a8f4aa8672c70994440b1f",
+      "header_offset": 0
+    },
+    {
+      "path": "rgmii/sim/rgmii_1g_test.sv",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "69676574ea94573144b1bf54b8f03f6bfed00eef6111b5d4a5c0fe73754e09f8",
+      "payload_sha256": "da4ad7751f473991484c2ffec389695e45bbdd26b5913c21edfd821525fe4b56",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/buffer/openeth_cdc.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "0456cb2a8c95060d892d9113fb525c475f8bfe017ef976af38ece3406e39fb96",
+      "payload_sha256": "664141a5d53ee042938f6b74bc2bdc4d956b9748d4bf1026900e9d87dee360ff",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/buffer/openeth_frame_fifo.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "0a09f82c3a6a432d9a50df25fa273652f68c631c1ccf12ef2005e5a6ecd7c7d9",
+      "payload_sha256": "30d67e9ff19a0d5f225076fd59b1f8d219853d77609a872b55d9a87cf5de6296",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/buffer/openeth_stream_down.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "e67a53757e79b2b91274e09cccf33b1e8d93257711241b0357cc2e1419eb1f02",
+      "payload_sha256": "14fe637f77d434c7de4fd7b3c20a419066eae543a2565745b4cea1ecee6bbfff",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/buffer/openeth_stream_up.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "fd127ed5170e6324e6b54529734dc2a816cca1cbe17728671e8c69d560bcfa50",
+      "payload_sha256": "f79552dce06b74173881fd6be09fcef4d75a99b9c35dedcf397dc55b8ceba9a8",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/mac/MacGmiiCore.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "d6773991dc22f265820d7e4b555e0c98293468ef7c2dd1165a32118c5234788e",
+      "payload_sha256": "bc73ff44718895b6ee3d0b235e13ab4e44aec646f7f62c041f8b92112e79396e",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/mac/OpenEthMac.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "f8ddc96f2952a041cb19bd7e7364b6c9a52e1bdb29397356e903e1eb4072457f",
+      "payload_sha256": "3e0fc599f59445c2058192d4464bd11b706bf6a26872fcad8ed7022a5bde52c5",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/nic/OpenNic.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "0f4e9d1b741aa699709f32feec0ccd1093596fbe6aedab92dc5f8ea7e472653d",
+      "payload_sha256": "04576ff72e19cd3a623bc00c53803279cbda70b3b908c5a747a6b84cca2ebef4",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/nic/OpenNicDma.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "f4118dc4336abfe7630dd0cb72ddfe7b3c1387f178b1d455018ac23795a22e09",
+      "payload_sha256": "f073137bf53251398bb7ba23b7e1803cb7be3b910f17f26004e0cb0539837f30",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/rgmii/OpenEthRgmii1G.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "2bceadd6df3614f614815e75050300aa026e150f6cba701fe7d39610c99bc6ca",
+      "payload_sha256": "2012cfdc879d150d178b6173fc61556fd0f1633ddda7927dd5f6eb2e3e6dee23",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/rgmii/OpenEthRgmiiPairs.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "58ce07047331cea84d48e52b7e6a2971f544f14dfcc21ee4718735abf3662ae8",
+      "payload_sha256": "988d9b944a57e7f91e710286c4a0727bb6561cad5b8afaced501f205572e1261",
+      "header_offset": 0
+    },
+    {
+      "path": "rtl/rgmii/RgmiiDigital.sv",
+      "category": "generated",
+      "license": "MIT",
+      "source_sha256": "4abab95e2306dce8beb80714d5fd51e12a26bd9cca853ff731f9237f96f6e2a1",
+      "payload_sha256": "b44e8f61954ff6b596e6f65c33293fbfb01f782588f99b6a99ffc2b888af1869",
+      "header_offset": 0
+    },
+    {
+      "path": "software/linux/auto_phy.c",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "1d614934ca7838cf798ee84e6ebbbe5e141b23d4b501c3d234f3a2440dcba89f",
+      "payload_sha256": "8e1bdcc33cde8dc9a53d3a82f7b0c227ed5744138e35cde78e23d1b7cf172c74",
+      "header_offset": 0
+    },
+    {
+      "path": "software/linux/tcp_integrity.c",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "e8926ced0351fd08a8ea318d94e3928d3706168700816e82a4e85d044455842d",
+      "payload_sha256": "a2fa6c9c34c91e2fed8a6f7c9634c3db3617c0b903944452a67cb702f8b03a4c",
+      "header_offset": 0
+    },
+    {
+      "path": "software/linux/v11/Makefile",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "16fdb757de93c8f6be0b9e698d78355586fddea78c204254672672df4df23175",
+      "payload_sha256": "28ec8d2462902e3e08251104b644f7aa0f7be7e2031739c5345181f86d3bc034",
+      "header_offset": 0
+    },
+    {
+      "path": "software/linux/v11/opennic.c",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "26810730f968ef3226817f57ff0d61bcb2db3280796226816c3e611935ec9568",
+      "payload_sha256": "56b5273164ee05c9d256ae5633903aa793e26e750fa02791cd4afbceeb32d428",
+      "header_offset": 0
+    },
+    {
+      "path": "software/linux/v11/opennic_copy.h",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "c5d8c45b4ab7837b856ad50d5394e2968dbd7a478e2fa3e3e74a8742b1f57b49",
+      "payload_sha256": "bd42cca750955e4bdf51e4e515978989ec426348a06efd6f6c687b1eccef9851",
+      "header_offset": 0
+    },
+    {
+      "path": "software/linux/v11/opennic_copy_rx.h",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "5d67bd12bc0965750725fb5dd384450080144bf9e058c95e3c460f2b75818f2a",
+      "payload_sha256": "5347b28b20f62ff602e37e16d24de7f81866c997b12130771448429b6f5b48f6",
+      "header_offset": 0
+    },
+    {
+      "path": "tests/test_opennic_copy.c",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "89ba39ac6219814de1017c9070defc41b5d1173299c72987348445edfc3bcdfa",
+      "payload_sha256": "38c5a033ec3d7759aa47d41ceb52677f8d4b1267472c060ed33731200fdd32f2",
+      "header_offset": 0
+    },
+    {
+      "path": "tests/test_opennic_rx_merge.c",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "2b96b0fa9de23cf00def051f3768284816fa1cb8746ce23bde6403bafea19943",
+      "payload_sha256": "02fc3781c72a0a7f87dfdb2ca1bdd51eb326147c4f113eeff83e86549bae9440",
+      "header_offset": 0
+    },
+    {
+      "path": "third_party/verilog-ethernet/iddr.v",
+      "category": "third-party",
+      "license": "MIT",
+      "source_sha256": "1c7d429c684ae16b7326d242a3a681879a0243e07d1c3a00143a364d79aa47a9",
+      "payload_sha256": "1c7d429c684ae16b7326d242a3a681879a0243e07d1c3a00143a364d79aa47a9",
+      "header_offset": null
+    },
+    {
+      "path": "third_party/verilog-ethernet/oddr.v",
+      "category": "third-party",
+      "license": "MIT",
+      "source_sha256": "402394a215bd8b748f880e31cb17f525a313ecb758234fd5b01d447cc4581402",
+      "payload_sha256": "402394a215bd8b748f880e31cb17f525a313ecb758234fd5b01d447cc4581402",
+      "header_offset": null
+    },
+    {
+      "path": "third_party/verilog-ethernet/ssio_ddr_in.v",
+      "category": "third-party",
+      "license": "MIT",
+      "source_sha256": "ba78fec337d5889fa87acf31079c44e19b2592da714347a5c1b915284707bf1b",
+      "payload_sha256": "ba78fec337d5889fa87acf31079c44e19b2592da714347a5c1b915284707bf1b",
+      "header_offset": null
+    },
+    {
+      "path": "tools/tcp_integrity_peer.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "d7ee92536bc7b0537fdedc531324048b7bce18ca46858007c5560c68f5249d81",
+      "payload_sha256": "dc2cf5c9392bbf2bbcaec569da7a8002b87a7987a5cf7ad9d3c2f19c0b3f9253",
+      "header_offset": 23
+    },
+    {
+      "path": "tools/test_rgmii_io.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "b5c8b38bafc0f5e5fcdb0f6594aeff55a5efa7cab8466f5d905d7754d7aeab92",
+      "payload_sha256": "77d3e81792498e850593f9089e5b89fc6c6c2ae2da60eb3cde54da139b993051",
+      "header_offset": 23
+    },
+    {
+      "path": "tools/test_tcp_integrity.py",
+      "category": "original",
+      "license": "MIT",
+      "source_sha256": "b55afe86bede385e56d2e1385d97ce587a6c3fcbf6607a435104835b999dcafe",
+      "payload_sha256": "5ddc73f9cfbbd0f8e573efb58d68f3ac0426bfdffef4d67b3c2b507bda18c5c9",
+      "header_offset": 23
+    }
+  ]
+}

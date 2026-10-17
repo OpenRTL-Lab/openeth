@@ -1,0 +1,34 @@
+{
+  "schema": "openeth-component-generation/v1",
+  "tools": {
+    "chisel": "6.5.0",
+    "scala": "2.13.12",
+    "mill": "1.1.7",
+    "firtool": "1.75.0"
+  },
+  "inputs": {
+    "nic/core/src/main/scala/opennic/EmitOpenNic.scala": "9252535535a37aef45d297973af6bf428653cbd879f90001606391016d3e828e",
+    "nic/core/src/main/scala/opennic/OpenNic.scala": "5afdf26c57ba160a27cd88729491387d4e7bcbe6636a73273dc0c9cc7ab81600",
+    "nic/core/src/main/scala/opennic/OpenNicDma.scala": "b3e436cc971332204c17fa50800b7a0a0d0264035a6876e51dba5e4dc59d191f",
+    "nic/core/src/main/scala/opennic/Protocol.scala": "dbebb812574f68073525384d70df3e1fe4f92df494e3d78c6b8845554afac1aa",
+    "nic/core/src/main/scala/opennic/EmitOpenNicDma.scala": "43f31f5fb673e058fe31575d94f01fe65e817ca2e1d0bfd1d4b22106cb836060",
+    "nic/core/src/test/scala/opennic/OpenNicCsrSpec.scala": "a216623fb7ce2b9abd9c25cde0f0158b8b247605f5901c3a52de90848ee9f78f",
+    "nic/core/src/test/scala/opennic/OpenNicDmaSpec.scala": "dd109441c3a761fd9b1655e87c3721c79d1a04d93d4dd73540910b629b29482e"
+  },
+  "commands": [
+    "cd nic",
+    "mill -i core.runMain opennic.EmitOpenNic build/generated-nic",
+    "mill -i core.runMain opennic.EmitOpenNicDma build/generated-dma"
+  ],
+  "outputs": {
+    "rtl/nic/OpenNic.sv": {
+      "source_sha256": "0f4e9d1b741aa699709f32feec0ccd1093596fbe6aedab92dc5f8ea7e472653d",
+      "payload_sha256": "04576ff72e19cd3a623bc00c53803279cbda70b3b908c5a747a6b84cca2ebef4"
+    },
+    "rtl/nic/OpenNicDma.sv": {
+      "source_sha256": "f4118dc4336abfe7630dd0cb72ddfe7b3c1387f178b1d455018ac23795a22e09",
+      "payload_sha256": "f073137bf53251398bb7ba23b7e1803cb7be3b910f17f26004e0cb0539837f30"
+    }
+  },
+  "scope": "Native NIC and standalone DMA; compile separately, not as duplicate modules."
+}

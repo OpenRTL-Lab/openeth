@@ -1,0 +1,17 @@
+// OpenRTL-source-header
+// Organization: OpenRTL Lab (GitHub: OpenRTL-Lab)
+// Organization introduction: Open hardware, from algorithms to RTL.
+// Repository: OpenRTL-Lab/openeth
+// Repository introduction: Reusable 1G Ethernet RTL and OpenNIC software.
+// File: nic/core/src/main/scala/opennic/EmitOpenNicDma.scala
+// Website: https://openrtl.top/
+// SPDX-License-Identifier: MIT
+// OpenRTL-source-header-end
+package opennic
+
+object EmitOpenNicDma extends App {
+  require(args.length == 1, "usage: opennic.EmitOpenNicDma OUTPUT_DIRECTORY")
+  _root_.circt.stage.ChiselStage.emitSystemVerilogFile(new OpenNicDma(),
+    Array("--target-dir", args(0)),
+    Array("--disable-all-randomization", "--strip-debug-info"))
+}

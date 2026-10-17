@@ -1,0 +1,10 @@
+# OpenRTL-source-header
+# Organization: OpenRTL Lab (GitHub: OpenRTL-Lab)
+# Organization introduction: Open hardware, from algorithms to RTL.
+# Repository: OpenRTL-Lab/openeth
+# Repository introduction: Reusable 1G Ethernet RTL and OpenNIC software.
+# File: software/linux/v11/Makefile
+# Website: https://openrtl.top/
+# SPDX-License-Identifier: MIT
+# OpenRTL-source-header-end
+obj-m += opennic.o

@@ -14,12 +14,12 @@
     {
       "path": "README.md",
       "classification": "original-inline",
-      "sha256": "79b34e18904d4bc7d669296c65a8f0875694ef1bb16d5368e5deb6f1d9d2a95d"
+      "sha256": "7ab92e5bc7ece0dab4e882161761e373c3a35a75569fc6b48869293f8e203753"
     },
     {
       "path": "README.zh-CN.md",
       "classification": "original-companion",
-      "sha256": "88a8aebdd251b87aaabfeaf6e7803334cdc1d794c243e878e3af6af2482d430c"
+      "sha256": "9c2d8218ac1102aeb705b0409e29d3d460d444da180318b1a80dd1967a49301d"
     },
     {
       "path": "README.zh-CN.md.license",
@@ -39,12 +39,12 @@
     {
       "path": "THIRD_PARTY.md",
       "classification": "original-inline",
-      "sha256": "162e7325b7e0a45f8fcebb9028f80c2c9ab347e9a17c864ec0c6ee43b3736e91"
+      "sha256": "84f4fa22d94e85e2945b9a564d962c5ac98b9775072f9be43505aa0f428baced"
     },
     {
       "path": "THIRD_PARTY.zh-CN.md",
       "classification": "original-companion",
-      "sha256": "6c239d1f399c7e9c2855dc5e6e75c9716a1d105bd76e3b6be566c510abd426e7"
+      "sha256": "3a01cbcbd21adaac3a0e460faa96b95e9c7d3027b4ed2d98b252c55615b3ccdc"
     },
     {
       "path": "THIRD_PARTY.zh-CN.md.license",
@@ -149,12 +149,12 @@
     {
       "path": "docs/REFERENCE_SYSTEM.md",
       "classification": "original-inline",
-      "sha256": "f4ecda9df1c2711d7afa4e940698a2f86d2b2060a5c58a262fcfb9b0635e7e49"
+      "sha256": "ab12b44422ef8af324b9a5d92ab009b270692e2066e0979e3c4b2f13bda244f8"
     },
     {
       "path": "docs/REFERENCE_SYSTEM.zh-CN.md",
       "classification": "original-companion",
-      "sha256": "6da506cefbf666dca5fb3f0a3e86db7a51c1f47407b055f3a6911cb1c4152701"
+      "sha256": "dace0f2346d72534eb017883e684b77505b9cbbebe97fdafd32b4a819262a708"
     },
     {
       "path": "docs/REFERENCE_SYSTEM.zh-CN.md.license",
@@ -164,12 +164,12 @@
     {
       "path": "docs/REPRODUCE.md",
       "classification": "original-inline",
-      "sha256": "3f7a7bfdb8ef3deb272eff6da522db77e989fef8bd55d5f256b248ec5bce6c7b"
+      "sha256": "fb97103a8ecfe3b1eefae9d50914b2849c6db4777e8e60ddb18c588b6a383ed2"
     },
     {
       "path": "docs/REPRODUCE.zh-CN.md",
       "classification": "original-companion",
-      "sha256": "1d9fcb84230223d0931d371809515701773366577db387d5cac163c611d59911"
+      "sha256": "501a1d57c3294de77300a2dd90220c1e6f19992c8ff62e6470b3413e3f7140f6"
     },
     {
       "path": "docs/REPRODUCE.zh-CN.md.license",
@@ -177,14 +177,29 @@
       "sha256": "06ab98c44b1d4e89eb1a28df54d70087654e7646a23abd57b3dafd7093f60ad4"
     },
     {
+      "path": "docs/SOC_INTEGRATION.md",
+      "classification": "original-inline",
+      "sha256": "b0a04e6079d405b678fac1541f1810d1a19f8d733ee6599d9409524d567f41d1"
+    },
+    {
+      "path": "docs/SOC_INTEGRATION.zh-CN.md",
+      "classification": "original-companion",
+      "sha256": "4dc4ac83f4f6a34274787f0715b942251e79c246eb4d5cc40a92b24a39273b7a"
+    },
+    {
+      "path": "docs/SOC_INTEGRATION.zh-CN.md.license",
+      "classification": "original-inline",
+      "sha256": "945523e9135c49b5132d5fee9a70f0d6465e0c0d39e9043f05225de1165aa844"
+    },
+    {
       "path": "docs/VERIFICATION.md",
       "classification": "original-inline",
-      "sha256": "3fbc98dd103883eb416caa6ea563a1f6b40c62228b91e5f32dc42177547e1b4c"
+      "sha256": "8fc4651e8898a339971f0baa0591e6c1a5b56b650e090f7ac882502985de0414"
     },
     {
       "path": "docs/VERIFICATION.zh-CN.md",
       "classification": "original-companion",
-      "sha256": "4eb87154b6fdc5262f0fc175e50508379e4dad49a6ec629bd717bc8e9951d199"
+      "sha256": "4e630c2516421cf27a09ac06668c829b83dafe583816c4a1884a26c4d802cff4"
     },
     {
       "path": "docs/VERIFICATION.zh-CN.md.license",
@@ -215,6 +230,16 @@
       "path": "integration/chipyard/opennic-platform.sbt",
       "classification": "original-inline",
       "sha256": "8db3b738b1a610ea77bda4d8e51d37c8a764d643e894edc7945a05c9a4c3620b"
+    },
+    {
+      "path": "integration/chipyard/opennic-soc.sbt",
+      "classification": "original-inline",
+      "sha256": "7a8c1f8b3c27a5eb8fc88bf380fe1c02e4dfe135466186a6fcfc8bd5c134a718"
+    },
+    {
+      "path": "integration/chipyard/soc/OpenEthSystem.scala",
+      "classification": "original-inline",
+      "sha256": "c1cbf713155b993937b2ad490cf9ff1e080b556a0529e0aa2bf69666ae45d0c8"
     },
     {
       "path": "licenses/Chipyard-BSD-3-Clause.txt",
@@ -507,9 +532,19 @@
       "sha256": "d35ae854b38356a8551924edcd29942d8f120048e237c663b139117e9cde98e9"
     },
     {
+      "path": "tools/chipyard.py",
+      "classification": "original-inline",
+      "sha256": "21fd9e5f89464e5771384b4808f9579000c0bcdb5229f8ff1545c27306fd1af1"
+    },
+    {
       "path": "tools/smoke.py",
       "classification": "original-inline",
       "sha256": "375e532047fdcaf183a40012170aa454cd29f60978e41b6a8d21c46079523ba4"
+    },
+    {
+      "path": "tools/soc_link.py",
+      "classification": "original-inline",
+      "sha256": "4b3545299429421efef516ddf957189cee4006fa151d2bc78d3dd75e6cf9d1d7"
     },
     {
       "path": "tools/source_headers.py",
@@ -522,9 +557,19 @@
       "sha256": "dc2cf5c9392bbf2bbcaec569da7a8002b87a7987a5cf7ad9d3c2f19c0b3f9253"
     },
     {
+      "path": "tools/test_chipyard.py",
+      "classification": "original-inline",
+      "sha256": "5e820f6f8b8ad851309db3595a84e381d750d33ce0109863273dd32f37832922"
+    },
+    {
       "path": "tools/test_rgmii_io.py",
       "classification": "original-inline",
       "sha256": "77d3e81792498e850593f9089e5b89fc6c6c2ae2da60eb3cde54da139b993051"
+    },
+    {
+      "path": "tools/test_soc_link.py",
+      "classification": "original-inline",
+      "sha256": "85a44323dad27d5750706a4bb397d2d267cf50137cfdc7d5e2159bef818b65a3"
     },
     {
       "path": "tools/test_source_headers.py",

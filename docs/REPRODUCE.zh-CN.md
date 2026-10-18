@@ -6,7 +6,8 @@
 [参考系统](REFERENCE_SYSTEM.zh-CN.md)，准确 Linux 吞吐步骤见
 [性能方法](PERFORMANCE.zh-CN.md)。
 
-本指南用于组件和软件，不用于重建完整参考板系统。仓库不提供原理图、PCB、
+本指南说明组件与软件。基于锁定公开 Chipyard 的完整数字 SoC 生成见
+[SoC 集成](SOC_INTEGRATION.zh-CN.md)。两份指南都不重建完整参考板系统。仓库不提供原理图、PCB、
 引脚表、板级约束、厂商IP配置或完整系统镜像。在仓库根目录执行：
 
 ```sh
@@ -72,15 +73,15 @@ MAC须有`MAC_CORE_PASS`、`MAC_PRODUCT_CLOCK_PASS`且两个错误负控被拒�
 | RGMII I/O | 生成的RgmiiDigital.sv、rgmii/rtl两文件、third_party/verilog-ethernet三封装；Xilinx模式需厂商原语 |
 
 nic/integration/OpenEthBoardLink.sv连接MAC／帧缓存与RGMII，暴露64位流，虽名含Board，
-却不含板引脚表、CPU、内存控制器或时钟发生器。NIC的CSR／内存还须接入实际系统。
+却不含板引脚表、CPU、内存控制器或时钟发生器。NIC 的 CSR／主存连接由
+[SoC 集成](SOC_INTEGRATION.zh-CN.md)提供。
 随附rtl副本用于所述固定配置，重新生成组件不等于生成完整SoC。
 
-nic/platform 和相应测试依赖外部Chipyard提交69eba860a352343e4ac6b6df0f3638a79a86ec78、
-其锁定子模块、CDE与Rocket Diplomacy／TileLink，
-不属于独立 core Mill 入口。sbt 文件是覆盖层，不是完整环境安装器。开发板还需要
-另行获取的合法厂商 IP、时钟/复位及实际约束，**本组件仓库本身不能重建完整板镜像**。
-TileLink适配器从接入总线获得合法地址范围，仓库不提供整板地址解码快照；独立core
-生成和测试不需要这些可选适配器。
+`nic/platform` 和相应测试依赖 CDE 与 Rocket Diplomacy／TileLink，不属于独立
+core Mill 入口。[SoC 集成配方](SOC_INTEGRATION.zh-CN.md)锁定公开 Chipyard
+提交，并提供获取／覆盖层、Config、总线和中断绑定、生成及输出检查。TileLink
+适配器从接入总线获得合法地址范围。独立核心测试不需要这些适配器；开发板仍需
+合法厂商 IP、时钟／复位及实际约束，**数字 SoC 配方不能重建完整板镜像**。
 
 RGMII数字生成不等于FPGA I/O原语仿真。`rgmii/sim/rgmii_1g_test.sv`需合法
 Vivado2025.2 UNISIM库、third_party中的三个封装、RgmiiDigital及rgmii/rtl两模块。
@@ -136,7 +137,8 @@ TARGET_IP替换为可达目标地址，仅在可信测试网络开放该端口�
 裸机`loopback.c`测试的是不经MAC／PHY／网线的**原生流直接回环**。示例要求RV64
 机器模式、0x80000000起的一致性DMA内存、NIC CSR0x10016000、SiFive兼容UART
 0x10020000、PLIC0x0c000000且NIC中断为机器模式上下文0的3／4号。链接文件把程序、
-缓冲和栈放入该示例内存。这是测试平台接入条件，仓库不提供该SoC，其他平台须适配。
+缓冲和栈放入该示例内存。[SoC 配置](SOC_INTEGRATION.zh-CN.md)提供这套数字地址／
+中断布局；其他布局仍须适配。编译程序或生成 SoC 不等于执行程序。
 执行：
 
 ```sh

@@ -16,6 +16,7 @@ OpenETH 提供连接片上系统（SoC）与千兆以太网 PHY 的可复用组�
 - **RGMII 与 FPGA I/O：**[源码与测试](rgmii)。
 - **PHY 管理：**[MDIO 接入](integration/chipyard/eth)与[PHY 工具](software/linux/auto_phy.c)。
 - **数据通路集成：**[组件之间的 RTL 连接](nic/integration)。
+- **数字 SoC 集成：**锁定的公开 Chipyard 基线、系统配置、总线／中断挂接和完整 SV 生成。详情请看 [Chipyard SoC 集成](docs/SOC_INTEGRATION.zh-CN.md)。
 - **软件：**[裸机原生流回环](nic/software/baremetal)、[Linux 驱动](software/linux/v11)、[PHY 工具](software/linux/auto_phy.c)、[TCP 完整性测试](software/linux/tcp_integrity.c)及其[对端程序](tools/tcp_integrity_peer.py)。
 - **集成约定：**报文流、主存接口、寄存器布局和复位行为。详情请看[接口说明](docs/INTERFACES.zh-CN.md)。
 
@@ -41,7 +42,7 @@ VU13P FPGA 参考系统已进行裸机报文／DMA 测试，以及 Linux 驱动�
 
 ## 复现与交付范围
 
-文档提供组件 SV 生成、仿真及软件源码构建方法。参考板系统仅作描述，不提供完整板级工程、原理图、引脚约束、厂商 IP 配置或启动镜像。详情请看[构建与测试](docs/REPRODUCE.zh-CN.md)及[参考系统范围](docs/REFERENCE_SYSTEM.zh-CN.md#scope-cn)。
+文档提供组件与数字 SoC 的 SV 生成、仿真及软件源码构建方法。参考板系统仅作描述，不提供完整板级工程、原理图、引脚约束、厂商 IP 配置或板级启动镜像。详情请看[构建与测试](docs/REPRODUCE.zh-CN.md)、[SoC 集成](docs/SOC_INTEGRATION.zh-CN.md)及[参考系统范围](docs/REFERENCE_SYSTEM.zh-CN.md#scope-cn)。
 
 ## 许可与集成
 

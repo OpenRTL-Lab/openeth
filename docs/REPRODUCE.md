@@ -15,8 +15,10 @@ For the test coverage and pass boundaries, see [Verification](VERIFICATION.md).
 For hardware models and connections, see [Reference system](REFERENCE_SYSTEM.md).
 The exact Linux throughput procedure is in [Performance](PERFORMANCE.md).
 
-This guide covers reusable components and software, not reconstruction of the
-reference FPGA system. Board schematics, PCB data, pin assignments, board timing
+This guide covers reusable components and software. Complete digital SoC generation
+from a pinned public Chipyard baseline is in [SoC integration](SOC_INTEGRATION.md).
+Neither guide reconstructs the complete reference FPGA board system.
+Board schematics, PCB data, pin assignments, board timing
 constraints, vendor-IP configurations and complete system images are not supplied.
 Run from the repository root unless a subshell changes directory. Python 3.10+
 and GCC-compatible C/C++ are needed for source and smoke checks; the tools do not
@@ -103,18 +105,16 @@ directories contain alternate copies of the same modules:
 `nic/integration/OpenEthBoardLink.sv` connects the MAC/frame-buffer and RGMII
 groups above and exposes 64-bit packet streams. Despite its name, it supplies
 no board pin map, CPU, memory controller or clock generator. OpenNIC's memory
-and CSR interfaces still need system integration. The supplied `rtl/` copies
+and CSR connections are supplied by the [SoC integration](SOC_INTEGRATION.md). The `rtl/` copies
 describe the documented fixed configuration; regenerating component outputs
 does not create a complete SoC.
 
-`nic/platform` contains optional integration sources/tests requiring the
-external Chipyard base `69eba860a352343e4ac6b6df0f3638a79a86ec78`, its pinned
-submodules, CDE and Rocket Diplomacy/TileLink. They are not compiled by the
-standalone `nic/core` Mill build. The included sbt fragment is an overlay,
-not a full Chipyard distribution or an automatic installer. Acquire these
-dependencies separately. The adapter obtains its legal address ranges from
-the integrating TileLink bus; no board address-decoder snapshot is provided.
-These optional adapters are not required to generate or test the native core.
+`nic/platform` contains integration sources/tests using CDE and Rocket
+Diplomacy/TileLink. They are not compiled by the standalone `nic/core` Mill
+build. The [SoC integration recipe](SOC_INTEGRATION.md) pins the public Chipyard
+commit and supplies its fetch/overlay, Config, bus and interrupt bindings,
+generation and output checks. The adapter obtains legal address ranges from
+the integrating TileLink bus. These adapters are not needed for native-core tests.
 
 The RGMII digital generator does not simulate FPGA I/O primitives. The separate
 `rgmii/sim/rgmii_1g_test.sv` test requires the licensed Vivado 2025.2 UNISIM
@@ -183,8 +183,9 @@ PHY or cable. Its example platform requires RV64 machine-mode execution,
 coherent DMA memory starting at `0x80000000`, NIC CSRs at `0x10016000`, a
 SiFive-compatible UART at `0x10020000`, and a PLIC at `0x0c000000` with NIC
 interrupt IDs 3/4 in machine context 0. The linker places code, buffers and stack
-in that example memory. These are test integration requirements, not a supplied
-SoC implementation. Adapt the addresses and interrupt routing for another system.
+in that example memory. The [SoC configuration](SOC_INTEGRATION.md) supplies this
+digital address/interrupt layout. Adapt the program for another layout; compiling
+or generating the SoC does not execute the program.
 
 ```sh
 make -C nic/software/baremetal CROSS_COMPILE=riscv64-unknown-elf-

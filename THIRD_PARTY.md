@@ -36,3 +36,9 @@ its interfaces are not relicensed by this repository.
 Chipyard/Rocket/Linux/OpenSBI source trees, proprietary DDR/MMCM IP and FPGA
 vendor tools are not included. Obtain these dependencies under their respective
 licenses. Optional commercial services do not change the permissions of MIT code.
+
+The [digital SoC recipe](docs/SOC_INTEGRATION.md) downloads the pinned public
+Chipyard tree and its submodules into a local build directory. This is dependency
+acquisition, not inclusion under the root MIT License. The new system bindings
+and build/connection helpers are original MIT files; the upstream generated
+CPU, interconnect and boot-ROM logic retain their respective source licenses.

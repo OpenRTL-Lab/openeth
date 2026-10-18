@@ -21,3 +21,8 @@ FPGA 厂商原语是外部工具或依赖，不因本项目 MIT 政策变成原�
 完整Chipyard/Rocket/Linux/OpenSBI源码、厂商DDR/MMCM IP及工具不随附，
 依赖须按各自许可获取。MIT 商用权利
 与可选商业定制服务无关。每个文件的来源与许可分类可用来源检查器机械核验。
+
+[数字 SoC 配方](docs/SOC_INTEGRATION.zh-CN.md) 将锁定的公开 Chipyard 和子模块
+下载至本地构建目录。这属于获取依赖，不表示按根 MIT 许可重新分发这些依赖。
+系统连接及构建／封装辅助工具是原创 MIT 文件；上游生成的 CPU、互连与引导 ROM
+逻辑仍遵循各自源码许可。

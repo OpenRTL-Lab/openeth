@@ -25,6 +25,7 @@ OpenETH provides reusable components for connecting a system-on-chip (SoC) to a 
 - **RGMII and FPGA I/O:** [sources and tests](rgmii).
 - **PHY management:** [MDIO integration](integration/chipyard/eth) and [PHY utility](software/linux/auto_phy.c).
 - **Datapath integration:** [RTL connections between components](nic/integration).
+- **Digital SoC integration:** a pinned public Chipyard baseline, system configuration, bus/interrupt bindings and complete SV generation. See [Chipyard SoC integration](docs/SOC_INTEGRATION.md).
 - **Software:** [bare-metal native-stream loopback](nic/software/baremetal), [Linux driver](software/linux/v11), [PHY utility](software/linux/auto_phy.c), and [TCP integrity tests](software/linux/tcp_integrity.c) with a [peer program](tools/tcp_integrity_peer.py).
 - **Integration contracts:** packet streams, memory interfaces, register layout and reset behavior. See [Interfaces](docs/INTERFACES.md) for details.
 
@@ -50,7 +51,7 @@ On the 50 MHz Rocket reference system, measured Linux TCP throughput is **27.089
 
 ## Reproduction and delivery scope
 
-Component SV generation, simulation and software source builds are documented. The reference board system is described, but complete board projects, schematics, pin constraints, vendor-IP configurations and boot images are not supplied. See [Build and test](docs/REPRODUCE.md) and [Reference system scope](docs/REFERENCE_SYSTEM.md#scope) for details.
+Component and digital SoC SV generation, simulation and software source builds are documented. The reference board system is described, but complete board projects, schematics, pin constraints, vendor-IP configurations and board boot images are not supplied. See [Build and test](docs/REPRODUCE.md), [SoC integration](docs/SOC_INTEGRATION.md) and [Reference system scope](docs/REFERENCE_SYSTEM.md#scope) for details.
 
 ## License and integration
 
